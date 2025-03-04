@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100%;
+    background-color: #7e5093
+}
+
+a {
+    color: #9c68bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3f3b3b;
+}
+
+header {
+    background-color: #9b59b6;
+    color: #f6f2f7;
+    padding: 1em;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #aa76c0;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+article {
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(155, 89, 182, 0.8);
+    margin-bottom: 1em;
+    width: calc(50% - 1em);
+    padding: 1em;
+    transition: all 0.2s ease;
+}
+
+article:hover {
+    box-shadow: 0 0 10px rgba(189, 133, 228, 0.8);
+    transform: translateY(-5px);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.read-more:hover {
+    background-color: #6c348d;
+}
+
+.read-more i {
+    margin-left: 0.5em;
+}
+
+.table-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    color: #ece8f2;
+    font-family: sans-serif;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    background: #d7d3df;
+    display: flex;
+    outline: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #9b59b6;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #6c348d;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto 40px;
+    padding: 40px;
+    background-color: #c1a2ca;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(75, 24, 97, 0.873);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.invalid-feedback {
+    color: #8736bc;
+    margin-top: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #881e86;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8d3fcd;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p a {
+    color: #4a0d64;
+    text-decoration: none;
+}
